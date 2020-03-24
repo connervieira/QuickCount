@@ -7,21 +7,20 @@
 //
 
 import Cocoa
+import Foundation
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var MainField: NSTextField!
+    @IBOutlet weak var LengthLabel: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let timer = Timer.scheduledTimer(withTimeInterval: 0.25, repeats: true, block: { timer in // Count characters 4 times every second
+            self.LengthLabel.stringValue = "Length: " + String(self.MainField.stringValue.count) // Count characters and display to the user
+        });
+
     }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
-
-
 }
 
