@@ -2,9 +2,6 @@
 QuickCount is a program designed to quickly count how many characters are in a string without the overhead and resource demand of a full word processor.
 ![QuickCount Logo](https://v0lttech.com/assets/img/quickcountlogo.png)
 
-## License
-Licensed under the V0LT Source Code License: https://v0lttech.com/files/documents/licenses/VoltSourceCodeLicense.pdf
-
 ## Binaries
 A complied version can be downloaded at https://v0lttech.com/quickcount.php
 
